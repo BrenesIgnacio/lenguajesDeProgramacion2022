@@ -59,3 +59,13 @@ func procesarTexto() {
 func main() {
 	procesarTexto()
 }
+
+//Este es el resultado de correr el codigo:
+//--------------Procesador de texto:------------------
+//este es el texto a procesar:  hola este es un texto de prueba para contar los elementos.
+//------------------------------------------------------
+//El numero de caracteres en el texto es de 59
+//------------------------------------------------------
+//El numero de palabras en el texto es de 11
+//------------------------------------------------------
+//El numero de lineas en el texto es de:  1
