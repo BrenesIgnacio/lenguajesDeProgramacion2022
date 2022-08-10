@@ -82,3 +82,12 @@ func main() {
 	fmt.Println("Rotacion usando el Movimiento a la Derecha: ", movimientos(&secuencia, 2, "Der"))
 	fmt.Println("---------------------------------------------")
 }
+
+//este es el resultado de correr el codigo
+//-------------Programa para rotar la secuencia:----------------
+//Esta es la secuencia base:  [1 2 3 4 5]
+//---------------------------------------------
+//Rotacion usando el movimiento a la Izquierda:  [3 4 5 1 2]
+//---------------------------------------------
+//Rotacion usando el Movimiento a la Derecha:  [4 5 1 2 3]
+//---------------------------------------------
