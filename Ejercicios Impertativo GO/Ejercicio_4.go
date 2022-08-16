@@ -60,7 +60,7 @@ func mostrar() {
 }
 
 //funcion que elimina un elemnto del slice
-func delete(slice []zapato, s int) []zapato {
+func deleteZapato(slice []zapato, s int) []zapato {
 	return append(slice[:s], slice[s+1:]...)
 }
 
@@ -69,7 +69,7 @@ func sell(model string, prec int, tall int) {
 
 	for i := 0; i < len(lista_zapatos); i++ {
 		if lista_zapatos[i].model == model && lista_zapatos[i].price == prec && lista_zapatos[i].size == tall {
-			lista_zapatos = delete(lista_zapatos, i)
+			lista_zapatos = deleteZapato(lista_zapatos, i)
 			fmt.Println("zapato vendido")
 			mostrar()
 			return
