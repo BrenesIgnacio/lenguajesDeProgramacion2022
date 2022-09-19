@@ -1,5 +1,5 @@
 --Autor @Ignacio Brenes
---Ejercicios paradigma funcional haskel, Guia #1 de ejercicios Lenguajes de programacion
+--Ejercicios paradigma funcional haskel, Guia #2 de ejercicios Lenguajes de programacion
 
 --Ejercicio #1: 
 data Producto = Producto {
