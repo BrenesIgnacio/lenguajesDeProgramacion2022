@@ -1,4 +1,4 @@
-% Ejercicio Route, Ignacio Brenes Practica 1 paradigma Logico
+% Ejercicios clase y repositorio, Ignacio Brenes Practica 1 paradigma Logico
 
 % Se adjuntan los 4 ejercicios de la practica 1 del paradigma Logico/
 
