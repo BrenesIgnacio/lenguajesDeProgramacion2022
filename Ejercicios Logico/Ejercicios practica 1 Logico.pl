@@ -12,7 +12,7 @@ editor(pratt, prenticehall).
 empleado(X):-patron(X,_).
 empleadopor(X):-patron(X,Y),write(Y).
 
-% #3 miembro
+% #1 miembro
 
 member(N,[N|_]).
 member(N,[_|Tail]) :- member(N,Tail).
@@ -23,7 +23,7 @@ insert(E,[],[E]).
 insert(E,[H|T],[E|[H|T]]):-  E < H,!.
 insert(E,[H|T],[H|R]):- insert(E,T,R).
 
-% #1 Eliminar
+% #3 Eliminar
 
 delete(_, [], []).
 delete(Y, [Y|Xs], Zs):-
